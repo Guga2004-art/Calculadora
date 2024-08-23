@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C@alcul@tor</title>
+</head>
+<body>
+    <!--formas geometricas-->
+    <div class="quadrado" id="qua1"></div>
+    <div class="triangulo_1" id="qua2"></div>
+    <div class="triangulo_2" id="qua3"></div>
+    <!--base calculadora-->
+    <div class="base1" id="base1">
+        <!--abrir extras-->
+        <div class="container">
+        <div id="but"></div>
+    </div>
+        <div id="but2"></div>
+        <!--tela-->
+        <label id="Screen"></label>
+        <!--botoes-->
+            <div class="buttons" id="buttons">
+                <!--botoes de 1 a 9-->
+                <button class="one" id="one">
+                    7
+                </button>
+                <button class="one" id="two">
+                    8
+                </button>
+                <button class="one" id="tre">
+                    9
+                </button>
+                <div>
+                    <button class="one" id="qua">
+                        4
+                    </button>
+                    <button class="one" id="cin">
+                        5
+                    </button>
+                    <button class="one" id="sex">
+                        6
+                    </button>
+                </div>
+                <div>
+                    <button class="one" id="set">
+                        1
+                    </button>
+                    <button class="one" id="oit">
+                        2
+                    </button>
+                    <button class="one" id="nov">
+                            3
+                    </button>
+                    <div>
+                        <button class="one" id="c">C</button>
+                        <button class="one" id="zer">0</button>
+                        <button class="one" id="ponto">.</button>
+                    </div>
+                </div>
+                <!--crirar outros botoes com display none pra aparecer so quando abrir a calculadora com o but-->
+                <div id="basenone">
+                    <div id="buttonnone">
+                        <div>
+                        <button class="two" id="mais">+</button>
+                        <button class="two" id="menos">-</button>
+                        <button class="two" id="vezes">x</button>
+                    </div>
+                    <div>
+                        <button class="two" id="divisao">/</button>
+                        <button class="two" id="x2">x^2</button>
+                        <button class="two" id="x3">x^3</button>
+                    </div>
+                    <div>
+                        <button class="two" id="xy">...</button>
+                        <button class="two" id="pi">π</button>
+                        <button class="two" id="perc">...</button>
+                    </div>
+                        <button class="two">...</button>
+                        <button class="two">...</button>
+                        <button class="two" id="equal">=</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script src="./javascript.js"></script>
+</body>
+</html>
