@@ -70,10 +70,14 @@ document.getElementById("vezes").onclick = function(){
     operacao = "*"
     tela.innerHTML = ""
 }
-
 document.getElementById("divisao").onclick = function(){
     pnum = parseFloat(tela.innerHTML); // Convertendo para float para permitir números decimais
     operacao = "/"
+    tela.innerHTML = ""
+}
+document.getElementById("porc").onclick = function(){
+    pnum = parseFloat(tela.innerHTML); // Convertendo para float para permitir números decimais
+    operacao = "%"
     tela.innerHTML = ""
 }
 // Função de igual
@@ -92,6 +96,8 @@ document.getElementById("equal").onclick = function(){
             break;
             case "/":
                 resultado = pnum / snum
+           case "%":
+            resultado = snum / 100 * pnum
         default:
             break;
     }
@@ -114,12 +120,6 @@ document.getElementById("equal").onclick = function(){
     let xy = document.getElementById("xy")
 }
 
-
-//soma
-//if um mais outro
-{
-
-}
 //abrir e fechar calculadora
 {
 let abrir = document.getElementById("but")
