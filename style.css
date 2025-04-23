@@ -13,6 +13,7 @@ body{
     margin-top: 30px;
     z-index: 1;
     transition: height 0.3s ease;
+    border: solid 5px black;
 
 }
 #Screen{
@@ -88,6 +89,7 @@ body{
     left: 60%;
     z-index: 0;
     transform: rotate(45deg);
+    border: solid 5px black;
 }
 .triangulo_1{
     width: 209px;
@@ -98,6 +100,7 @@ body{
     top: 20%;
     z-index: 0;
     transform: rotate(35deg);
+    border: solid 5px black;
 }
 .triangulo_2{
   height: 209px;
@@ -108,6 +111,7 @@ body{
   left: 40%;
   bottom: 10%;
   transform: rotate(25deg);
+  border: solid 5px black;
 }
 #basenone{
     position: absolute;
